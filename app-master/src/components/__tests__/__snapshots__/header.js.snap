@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header renders correctly 1`] = `
+<header>
+  <nav
+    className="navbar navbar-expand-lg navbar-light text-light bg-info"
+  >
+    <a
+      className="text-light"
+      href="/"
+    >
+      <img
+        alt="Default Starter"
+        src="https://static.wixstatic.com/media/850b87_15c52f6fba2b489cb2377d9a58130a73~mv2.png/v1/fill/w_180,h_118,al_c,q_85,usm_0.66_1.00_0.01/logo1.webp"
+        style={
+          Object {
+            "height": "50px",
+          }
+        }
+      />
+    </a>
+    <nav
+      aria-label="breadcrumb"
+    >
+      <ol
+        className="breadcrumb bg-info"
+      >
+        <li
+          className="breadcrumb-item"
+        >
+          <a
+            className="text-dark"
+            href="/"
+          >
+            Home
+          </a>
+        </li>
+        <li
+          className="breadcrumb-item active"
+        >
+          <a
+            className="text-dark"
+            href="/debt"
+          >
+            Debt
+          </a>
+        </li>
+        <li
+          className="breadcrumb-item"
+        >
+          <a
+            className="text-dark"
+            href="/debt-plan"
+          >
+            Debt Plan
+          </a>
+        </li>
+        <li
+          className="breadcrumb-item"
+        >
+          <a
+            className="text-dark"
+            href="/budget"
+          >
+            Budget
+          </a>
+        </li>
+        <li
+          className="breadcrumb-item"
+        >
+          <a
+            className="text-dark"
+            href="/results"
+          >
+            Results
+          </a>
+        </li>
+      </ol>
+    </nav>
+  </nav>
+</header>
+`;
